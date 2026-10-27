@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The PixelOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="spoofing_title">Identidade e integridade</string>
+    <string name="spoofing_summary">Define quais dados o dispositivo apresenta aos apps e nas verificações de integridade</string>
+    <string name="spoofing_integrity_category">Verificação de integridade</string>
+    <string name="spoofing_identity_category">Identidade do dispositivo</string>
+    <string name="spoofing_app_specific_category">Ajustes por app</string>
+    <string name="tricky_store_title">Atestado de chaves</string>
+    <string name="tricky_store_summary">Permite importar um keybox e escolher a quais apps ele se aplica</string>
+    <string name="play_integrity_fix_title">Perfil do Play Integrity</string>
+    <string name="play_integrity_fix_summary">Define quais dados do dispositivo o DroidGuard recebe</string>
+    <string name="spoofing_pixel_props_title">Perfil de Pixel</string>
+    <string name="spoofing_pixel_props_summary">Apresenta o dispositivo como um Pixel aos apps selecionados</string>
+    <string name="spoofing_photos_title">Google Fotos</string>
+    <string name="spoofing_photos_summary">Apresenta o dispositivo como um Pixel XL ao Google Fotos</string>
+    <string name="spoofing_reset_defaults_title">Restaurar padrões</string>
+    <string name="spoofing_reset_defaults_dialog_title">Restaurar as configurações padrão?</string>
+    <string name="spoofing_reset_defaults_dialog_message">Exclui o perfil do Play Integrity e a data personalizada do patch de segurança. Restaura a lista padrão de apps e mantém o keybox e o estado dos interruptores.</string>
+    <string name="spoofing_reset_defaults_confirm">Restaurar</string>
+    <string name="spoofing_reset_defaults_done">Configurações padrão restauradas</string>
+    <string name="pif_no_config">Nenhum perfil configurado</string>
+    <string name="pif_active_model">Modelo configurado: <xliff:g id="model" example="Pixel 6a">%1$s</xliff:g></string>
+    <string name="pif_fetch">Buscar identificador de um Pixel</string>
+    <string name="pif_import">Importar perfil</string>
+    <string name="pif_delete">Excluir perfil</string>
+    <string name="pif_delete_title">Excluir o perfil do Play Integrity?</string>
+    <string name="pif_delete_message">O identificador de compilação salvo será excluído junto com o perfil.</string>
+    <string name="pif_imported">Perfil importado</string>
+    <string name="pif_fetched_model">Identificador do <xliff:g id="model" example="Pixel 6a">%1$s</xliff:g> obtido</string>
+    <string name="pif_wipe_playstore_title">Limpar os dados da Play Store?</string>
+    <string name="pif_wipe_playstore_message">Uma nova sessão da Play Store ajuda a aplicar o identificador. Você sairá da conta no app. O cache e a fila de downloads serão limpos.</string>
+    <string name="pif_wipe_confirm">Limpar dados</string>
+    <string name="pif_failed">Falha: <xliff:g id="error" example="timeout">%1$s</xliff:g></string>
+    <string name="pif_invalid_fingerprint">Formato inválido para o identificador de compilação</string>
+    <string name="pif_no_devices">Nenhum dispositivo encontrado</string>
+    <string name="pif_select_device">Escolha um dispositivo</string>
+    <string name="pif_recommended">Recomendado</string>
+    <string name="pif_advanced">Configurações avançadas</string>
+    <string name="pif_spoof_build_title">Dados da compilação</string>
+    <string name="pif_spoof_build_summary">Fornece ao DroidGuard os dados da compilação do perfil selecionado</string>
+    <string name="pif_spoof_props_title">Propriedades do sistema</string>
+    <string name="pif_spoof_props_summary">Informa ao DroidGuard o ID da compilação, o patch de segurança e a identidade do produto definidos no perfil</string>
+    <string name="pif_spoof_provider_title">Provedor de chaves</string>
+    <string name="pif_spoof_provider_summary">Faz as solicitações de cadeia de certificados do DroidGuard falharem. Mantenha desativado se estiver usando um keybox.</string>
+    <string name="pif_spoof_signature_title">Assinatura experimental do sistema</string>
+    <string name="pif_spoof_signature_summary">Apresenta uma assinatura alternativa do sistema ao DroidGuard</string>
+    <string name="pif_vending_finger_title">Identificador de compilação para a Play Store</string>
+    <string name="pif_vending_finger_summary">Envia o identificador do perfil também à Play Store. Use só se precisar.</string>
+    <string name="pif_vending_finger_custom">Identificador personalizado para a Play Store: <xliff:g id="fingerprint" example="google/bluejay/...">%1$s</xliff:g></string>
+    <string name="pif_vending_sdk_title">Nível de API para a Play Store</string>
+    <string name="pif_vending_sdk_summary">Informa à Play Store o nível 32, sem ultrapassar o nível real do sistema. Use só para testes.</string>
+    <string name="pif_fields">Campos do identificador de compilação</string>
+    <string name="pif_edit_value">Editar <xliff:g id="field" example="MODEL">%1$s</xliff:g></string>
+    <string name="pif_value_empty">Preencha o campo</string>
+    <string name="pif_value_integer">Digite um número inteiro</string>
+    <string name="ts_no_keybox">Nenhum keybox instalado</string>
+    <string name="ts_keybox_installed">Keybox instalado</string>
+    <string name="ts_keybox_user">Keybox importado manualmente</string>
+    <string name="ts_import_keybox">Importar keybox</string>
+    <string name="ts_delete_keybox">Excluir keybox</string>
+    <string name="ts_delete_keybox_title">Excluir o keybox instalado?</string>
+    <string name="ts_delete_keybox_message">O atestado de chaves deixará de usar este keybox.</string>
+    <string name="ts_keybox_imported">Keybox importado</string>
+    <string name="ts_wipe_playstore_message">A Play Store guarda o resultado da verificação anterior. Limpar os dados permite aplicar o novo keybox, encerra sua sessão no app e limpa o cache e a fila de downloads.</string>
+    <string name="ts_keybox_deleted">Keybox excluído</string>
+    <string name="ts_targets">Apps selecionados</string>
+    <string name="spoof_target_count">Total: <xliff:g id="count" example="8">%1$d</xliff:g></string>
+    <string name="ts_import_targets">Importar lista de apps</string>
+    <string name="ts_targets_imported">Lista de apps importada</string>
+    <string name="ts_patch">Data personalizada do patch de segurança</string>
+    <string name="ts_patch_summary_unset">Usa a data do patch de segurança do dispositivo</string>
+    <string name="ts_patch_stale"><xliff:g id="date" example="2024-01-01">%1$s</xliff:g> (há mais de um ano)</string>
+    <string name="ts_patch_custom">Data definida por pacote</string>
+    <string name="ts_patch_invalid">Use o formato YYYY-MM-DD, o modelo YYYY-MM-05 ou blocos por pacote</string>
+    <string name="ts_failed">Falha: <xliff:g id="error" example="timeout">%1$s</xliff:g></string>
+    <string name="ts_choose_mode">Modo de verificação do app</string>
+    <string name="ts_mode_off">Fora da lista</string>
+    <string name="ts_mode_auto">Automático</string>
+    <string name="ts_mode_leaf">Ajuste do certificado final</string>
+    <string name="ts_mode_cert">Geração de certificado</string>
+    <string name="ts_mode_skip">Ignorar</string>
+    <string name="pp_enable">Perfil de Pixel</string>
+    <string name="pp_model">Modelo de Pixel</string>
+    <string name="pp_targets">Apps selecionados</string>
+    <string name="spoof_show_system">Mostrar apps do sistema</string>
+    <string name="spoof_filter">Filtrar</string>
+    <string name="spoof_no_apps">Nenhum app corresponde ao filtro</string>
+</resources>
