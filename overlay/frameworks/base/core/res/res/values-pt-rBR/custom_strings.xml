@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Button that copies the url to the log of a crashed application -->
-    <string name="aerr_copy">Copiar URL do registro de falhas</string>
-    <string name="url_copy_success">URL copiado com sucesso</string>
-    <string name="url_copy_failed">Ocorreu um erro ao carregar o log para mkr/bin</string>
+    <string name="aerr_copy">Copiar URL do registro de falha</string>
+    <string name="url_copy_success">URL copiada</string>
+    <string name="url_copy_failed">Não foi possível enviar o registro para o mkr/bin</string>
     <!-- Alert slider proc nodes paths. -->
     <!-- Charging speed strings -->
     <string name="charging_speed">Velocidade de carregamento</string>
@@ -12,33 +12,33 @@
     <string name="charging_speed_super_fast">Super rápido</string>
     <!-- LiveDisplay strings -->
     <string name="live_display_auto">Automático</string>
-    <string name="live_display_auto_summary">Ajusta automaticamente a temperatura de cor da tela após o pôr do sol e nascer do sol</string>
-    <string name="live_display_off">Desligado</string>
-    <string name="live_display_off_summary">Desativar todos os ajustes</string>
+    <string name="live_display_auto_summary">Ajusta a temperatura de cor da tela conforme o pôr e o nascer do sol</string>
+    <string name="live_display_off">Desativado</string>
+    <string name="live_display_off_summary">Mantém a tela sem nenhum ajuste de cor</string>
     <string name="live_display_day">Dia</string>
-    <string name="live_display_day_summary">Usar apenas as configurações de dia</string>
+    <string name="live_display_day_summary">Usa apenas os ajustes diurnos</string>
     <string name="live_display_night">Noite</string>
-    <string name="live_display_night_summary">Usar apenas as configurações de noite</string>
-    <string name="live_display_outdoor">Externo (sol intenso)</string>
-    <string name="live_display_outdoor_summary">Usar apenas configurações de modo externo</string>
-    <string name="live_display_hint">LiveDisplay pode te ajudar a reduzir cansaço dos olhos e ajudar você a dormir durante a noite. Clique aqui para testar!</string>
-    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desligado.</string>
-    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automatico.</string>
-    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo dia.</string>
-    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noite.</string>
-    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo externo.</string>
-    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay foi desligado.</string>
+    <string name="live_display_night_summary">Usa apenas os ajustes noturnos</string>
+    <string name="live_display_outdoor">Ao ar livre (sol forte)</string>
+    <string name="live_display_outdoor_summary">Usa apenas os ajustes para ambientes externos</string>
+    <string name="live_display_hint">O LiveDisplay ajuda a reduzir o cansaço visual e a dormir melhor à noite. Toque aqui para experimentar!</string>
+    <string name="accessibility_quick_settings_live_display_off">LiveDisplay desativado.</string>
+    <string name="accessibility_quick_settings_live_display_auto">LiveDisplay: modo automático.</string>
+    <string name="accessibility_quick_settings_live_display_day">LiveDisplay: modo diurno.</string>
+    <string name="accessibility_quick_settings_live_display_night">LiveDisplay: modo noturno.</string>
+    <string name="accessibility_quick_settings_live_display_outdoor">LiveDisplay: modo ao ar livre.</string>
+    <string name="accessibility_quick_settings_live_display_changed_off">LiveDisplay desativado.</string>
     <string name="accessibility_quick_settings_live_display_changed_auto">LiveDisplay alterado para o modo automático.</string>
-    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para o modo dia.</string>
-    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para o modo noite.</string>
-    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para o modo externo.</string>
+    <string name="accessibility_quick_settings_live_display_changed_day">LiveDisplay alterado para o modo diurno.</string>
+    <string name="accessibility_quick_settings_live_display_changed_night">LiveDisplay alterado para o modo noturno.</string>
+    <string name="accessibility_quick_settings_live_display_changed_outdoor">LiveDisplay alterado para o modo ao ar livre.</string>
     <!-- Health interface -->
     <string name="charging_control_notification_channel">Controle de carregamento</string>
     <string name="charging_control_notification_title">Controle de carregamento</string>
     <string name="charging_control_notification_cancel_once">Cancelar</string>
     <string name="charging_control_notification_content_limit">A bateria será carregada até %1$d%%</string>
-    <string name="charging_control_notification_content_limit_reached">Bateria carregada em %1$d%%</string>
-    <string name="charging_control_notification_content_target">A bateria estará totalmente carregada em %1$s</string>
+    <string name="charging_control_notification_content_limit_reached">Bateria carregada até %1$d%%</string>
+    <string name="charging_control_notification_content_target">A bateria estará totalmente carregada às %1$s</string>
     <string name="charging_control_notification_content_target_reached">Bateria carregada</string>
     <!-- Cycle through ringer modes -->
     <string name="volume_dialog_ringer_guidance_normal">Chamadas e notificações tocarão</string>

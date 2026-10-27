@@ -5,21 +5,21 @@
   SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Serviço Quick Tap</string>
+    <string name="app_name">Serviço de Toque Rápido</string>
     <!-- Pref keys -->
     <!-- Categ keys -->
     <!-- Screen keys -->
     <!-- Other non-translatable -->
     <!-- Quick settings tile label -->
-    <string name="quick_settings_label">Quick Tap</string>
+    <string name="quick_settings_label">Toque rápido</string>
     <!-- Entry points in Settings -->
-    <string name="settings_entry_title">Toque Rápido para iniciar as ações</string>
+    <string name="settings_entry_title">Toque rápido para iniciar ações</string>
     <string name="settings_entry_summary_on">Ativado / <xliff:g id="action" example="Take screenshot">%1$s</xliff:g></string>
     <string name="settings_entry_summary_off">Desativado</string>
-    <string name="settings_search_keywords">Quick Tap, toque traseiro, toque, gesto, assistente, assistant</string>
+    <string name="settings_search_keywords">Toque rápido, toque nas costas, toque, gesto, assistência, assistente</string>
     <!-- Items in Quick Tap gesture settings -->
-    <string name="setting_enabled_title">Usar o Toque Rápido</string>
-    <string name="setting_footer_content">Para executar uma ação, toque duas vezes na parte de trás do telefone, perto do centro</string>
+    <string name="setting_enabled_title">Toque rápido</string>
+    <string name="setting_footer_content">Toque duas vezes na parte traseira do celular, perto do centro, para executar uma ação</string>
     <string name="setting_sensitivity_title">Sensibilidade</string>
     <string name="setting_sensitivity_light">Toque leve</string>
     <string name="setting_sensitivity_heavy">Toque forte</string>
@@ -29,27 +29,27 @@
     <string name="setting_screen_off_title">Permitir com a tela desligada</string>
     <string name="setting_screen_off_summary">Pode aumentar os acionamentos acidentais</string>
     <string name="setting_screen_off_blocked_summary">Bloqueado pela ação atual</string>
-    <string name="setting_action_title" product="default">Toque duas vezes na parte de trás do smartphone para</string>
-    <string name="setting_action_title" product="device">Toque duas vezes na parte de trás do dispositivo para</string>
-    <string name="setting_action_title" product="tablet">Toque duas vezes na parte de trás do tablet para</string>
-    <string name="launch_settings_activity_title">Configurações do Toque Rápido</string>
-    <string name="setting_app_selection_help_text" product="default">Selecione um app para abrir ao tocar duas vezes na parte de trás do celular. Se você desinstalar o app, o Toque Rápido será desativado até que outro app seja selecionado.</string>
-    <string name="setting_app_selection_help_text" product="device">Selecione um aplicativo para abrir quando você tocar duas vezes na parte de trás do dispositivo. Se você desinstalar o aplicativo, o Quick Tap será desativado até que você selecione outro.</string>
-    <string name="setting_app_selection_help_text" product="tablet">Selecione um aplicativo para abrir quando você tocar duas vezes na parte de trás do tablet. Se você desinstalar o aplicativo, o Quick Tap será desativado até que você selecione outro.</string>
-    <string name="setting_app_selection_help_text_disabled">Para usar este recurso, você precisa ativar o Quick Tap primeiro.</string>
-    <string name="setting_app_shortcut_selection_help_text">Selecione o que acontece quando você abre o app usando o Toque Rápido.</string>
-    <string name="radio_button_extra_widget_a11y_label">Configurações para <xliff:g id="action">%1$s</xliff:g></string>
+    <string name="setting_action_title" product="default">Toque duas vezes na parte traseira do celular para</string>
+    <string name="setting_action_title" product="device">Toque duas vezes na parte traseira do dispositivo para</string>
+    <string name="setting_action_title" product="tablet">Toque duas vezes na parte traseira do tablet para</string>
+    <string name="launch_settings_activity_title">Configurações de Toque rápido</string>
+    <string name="setting_app_selection_help_text" product="default">Escolha o app que será aberto ao tocar duas vezes na parte traseira do celular. Se você desinstalar o app, o Toque rápido será desativado até você escolher outro.</string>
+    <string name="setting_app_selection_help_text" product="device">Escolha o app que será aberto ao tocar duas vezes na parte traseira do dispositivo. Se você desinstalar o app, o Toque rápido será desativado até você escolher outro.</string>
+    <string name="setting_app_selection_help_text" product="tablet">Escolha o app que será aberto ao tocar duas vezes na parte traseira do tablet. Se você desinstalar o app, o Toque rápido será desativado até você escolher outro.</string>
+    <string name="setting_app_selection_help_text_disabled">Para usar este recurso, ative o Toque rápido primeiro.</string>
+    <string name="setting_app_shortcut_selection_help_text">Escolha o que acontece ao usar o Toque rápido. Você pode mudar isso depois nas configurações.</string>
+    <string name="radio_button_extra_widget_a11y_label">Configurações de <xliff:g id="action">%1$s</xliff:g></string>
     <string name="setting_action_launch_summary_no_selection">Nenhum app selecionado</string>
     <string name="setting_action_launch_summary_not_installed">App não instalado</string>
     <!-- Actions -->
-    <string name="action_screenshot_name">Fazer uma captura de tela</string>
+    <string name="action_screenshot_name">Fazer captura de tela</string>
     <string name="action_assistant_name">Acessar o assistente digital</string>
-    <string name="action_media_name">Abrir ou pausar mídia</string>
+    <string name="action_media_name">Reproduzir ou pausar mídia</string>
     <string name="action_overview_name">Ver apps recentes</string>
     <string name="action_notifications_name">Mostrar notificações</string>
-    <string name="action_flashlight_name">Ativar lanterna</string>
+    <string name="action_flashlight_name">Ligar ou desligar a lanterna</string>
     <string name="action_launch_name">Abrir app</string>
     <!-- Actions meta -->
     <!-- Toast -->
-    <string name="gesture_detected">Toque Rápido detectado.</string>
+    <string name="gesture_detected">Toque rápido detectado!</string>
 </resources>
