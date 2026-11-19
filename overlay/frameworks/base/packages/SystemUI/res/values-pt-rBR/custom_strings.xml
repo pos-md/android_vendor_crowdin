@@ -109,4 +109,9 @@
     <string name="flashlight_strength_title">Intensidade da lanterna</string>
     <string name="flashlight_strength_turn_off">Desligar</string>
     <string name="flashlight_strength_turn_on">Ligar</string>
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Som</string>
+    <string name="quick_settings_sound_ring">Toque</string>
+    <string name="quick_settings_sound_vibrate">Vibração</string>
+    <string name="quick_settings_sound_silent">Silencioso</string>
 </resources>

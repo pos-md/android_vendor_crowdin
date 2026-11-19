@@ -337,7 +337,7 @@
     <string name="system_update_entry_title">Atualização do sistema</string>
     <!-- Spoofing -->
     <string name="spoofing_title">Identidade e integridade</string>
-    <string name="spoofing_summary">Define quais dados o dispositivo apresenta aos apps e nas verificações de integridade</string>
+    <string name="spoofing_summary">Define como os apps veem o dispositivo</string>
     <string name="spoofing_integrity_category">Verificação de integridade</string>
     <string name="spoofing_identity_category">Identidade do dispositivo</string>
     <string name="spoofing_app_specific_category">Ajustes por app</string>
